@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(90, 163, 215);
+}
+
+header, footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+section{
+    background-color: white;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.349);
+}
+input{
+    margin: 8px;
+}
+
+input[type=button], input[type=reset]{
+    margin: 20px 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#res p{
+    padding-bottom: 10px;
+    display: block;
+}
+
+#foto{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    background-size: contain;
+    background-position: center center;
+    margin: auto;
+    border-radius: 50%;
+}
