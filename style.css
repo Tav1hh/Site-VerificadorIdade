@@ -7,6 +7,7 @@
 
 body{
     background-color: rgb(90, 163, 215);
+    padding: 0px 10px;
 }
 
 header, footer{
@@ -17,7 +18,8 @@ header, footer{
 
 section{
     background-color: white;
-    width: 500px;
+    max-width: 500px;
+
     padding: 15px;
     border-radius: 10px;
     margin: auto;
